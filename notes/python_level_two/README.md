@@ -74,11 +74,80 @@
 ![60](screenshots/60.PNG)<br><br>
 ![61](screenshots/61.PNG)<br><br>
 ![62](screenshots/62.PNG)<br><br>
+**s followed by 0 or more d**<br><br>
 ![63](screenshots/63.PNG)<br><br>
 ![64](screenshots/64.PNG)<br><br>
+**s followed by 1 or more d**<br><br>
 ![65](screenshots/65.PNG)<br><br>
+**s followed by d 0 or 1 time**<br><br>
 ![66](screenshots/66.PNG)<br><br>
+**s followed by 3 d**<br><br>
 ![67](screenshots/67.PNG)<br><br>
+**s followed by 1 or 3 d**<br><br>
 ![68](screenshots/68.PNG)<br><br>
+**s followed by either 1 or more s or 1 or more d**<br><br>
 ![69](screenshots/69.PNG)<br><br>
+**caret symbol excludes the symbols that follow it in the square brackets**<br><br>
 ![70](screenshots/70.PNG)<br><br>
+**sequences of lower case letters**<br><br>
+![71](screenshots/71.PNG)<br><br>
+**sequences of upper case letters**<br><br>
+![72](screenshots/72.PNG)<br><br>
+**r is used in from of the regex because r designates a raw string in Python, which has different rules than a standard string, such as you don't have to escape backslashes and other special chars. \d represents a digit**<br><br>
+![73](screenshots/73.PNG)<br><br>
+**\D gets the non digits**<br><br>
+![74](screenshots/74.PNG)<br><br>
+**\s gets the white space**<br><br>
+![75](screenshots/75.PNG)<br><br>
+**\S gets the non white space**<br><br>
+![76](screenshots/76.PNG)<br><br>
+**\w gets the alphanumeric characters**<br><br>
+![77](screenshots/77.PNG)<br><br>
+**\W gets the non alphanumeric characters**<br><br>
+
+## Modules and Packages
+![78](screenshots/78.PNG)<br><br>
+![79](screenshots/79.PNG)<br><br>
+![80](screenshots/80.PNG)<br><br>
+![81](screenshots/81.PNG)<br><br>
+**But dont use import * unless you absolutely have to, because it wastes a lot of memory**<br><br>
+
+## Decorators
+![82](screenshots/82.PNG)<br><br>
+**locals() returns a dictionary of all the local variables and globals() returns a dictionary of all the global variables. Note that there are a lot of predefined global variables**<br><br>
+![83](screenshots/83.PNG)<br><br>
+![84](screenshots/84.PNG)<br><br>
+![85](screenshots/85.PNG)<br><br>
+![86](screenshots/86.PNG)<br><br>
+![87](screenshots/87.PNG)<br><br>
+![88](screenshots/88.PNG)<br><br>
+![89](screenshots/89.PNG)<br><br>
+**function as an argument**<br><br>
+![90](screenshots/90.PNG)<br><br>
+![91](screenshots/91.PNG)<br><br>
+![92](screenshots/92.PNG)<br><br>
+![93](screenshots/93.PNG)<br><br>
+**1 and 2 does the same thing. adding the @function_name (decorator) before the def makes it so.**<br><br>
+
+## Name and Main
+![94](screenshots/94.PNG)<br><br>
+![95](screenshots/95.PNG)<br><br>
+**OK, so again, as I mentioned, sometimes when you're importing from a module, you would like to know
+whether a modules function is being used as an import or if you're using the actual original DCPI file.
+So as we saw before, if I'm importing something from two into one and I run the one, that pie script
+I want to know, did that function directly come from one or was it imported from two?
+And you can determine this by using that if name is equal to main statement and when your script is
+run by passing it as a command to the Python interpreter, such as we've done with Python notes that
+Stoppie, all of the code that is at the indentation level zero gets executed in functions and classes
+that are defined are well defined, but none of their code gets ram.
+Unlike other languages, there's no main function that gets run automatically.
+The main function is implicitly all the code at the top level.
+And in this case, that top level code is that of an F block, and that's the if name is equal to me.
+So let's actually show this.**<br><br>
+![96](screenshots/96.PNG)<br><br>
+![97](screenshots/97.PNG)<br><br>
+**And all of this works because of this name, so this __name__
+is a built in variable which evaluates to the name of the current module.
+And thus you can test whether or not your script is being run directly or being imported by something
+else.
+OK, that's really all we wanted to get across here**<br><br>
