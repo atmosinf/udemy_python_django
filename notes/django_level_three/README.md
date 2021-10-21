@@ -61,16 +61,6 @@ thing, keeps you safe programer.**<br><br>
 a post here.
 So it's actually accepting the information.**<br><br>
 ![40](screenshots/40.PNG)<br><br>
-![31](screenshots/31.PNG)<br><br>
-![32](screenshots/32.PNG)<br><br>
-![33](screenshots/33.PNG)<br><br>
-![34](screenshots/34.PNG)<br><br>
-![35](screenshots/35.PNG)<br><br>
-![36](screenshots/36.PNG)<br><br>
-![37](screenshots/37.PNG)<br><br>
-![38](screenshots/38.PNG)<br><br>
-![39](screenshots/39.PNG)<br><br>
-![40](screenshots/40.PNG)<br><br>
 ![41](screenshots/41.PNG)<br><br>
 ![42](screenshots/42.PNG)<br><br>
 ![43](screenshots/43.PNG)<br><br>
