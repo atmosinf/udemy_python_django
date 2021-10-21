@@ -63,21 +63,29 @@ So it's actually accepting the information.**<br><br>
 ![40](screenshots/40.PNG)<br><br>
 ![41](screenshots/41.PNG)<br><br>
 ![42](screenshots/42.PNG)<br><br>
+## Form Validation
 ![43](screenshots/43.PNG)<br><br>
 ![44](screenshots/44.PNG)<br><br>
 ![45](screenshots/45.PNG)<br><br>
 ![46](screenshots/46.PNG)<br><br>
 ![47](screenshots/47.PNG)<br><br>
+**The bot will try to input some value. Right now nothing will happen, but we want to catch the bot, so we'll validate that particular input**<br><br>
 ![48](screenshots/48.PNG)<br><br>
+**create a method with the name 'clean_fieldname'. Django automatically connectst the fieldname and the function when the function is named this way**<br><br>
 ![49](screenshots/49.PNG)<br><br>
 ![50](screenshots/50.PNG)<br><br>
+**When submit was clicked, nothing was returned, we didn't print anything, because the validation error was raised**<br><br>
 ![51](screenshots/51.PNG)<br><br>
+**But we usually use djangpo's built in validators in real websites. cleaned_fieldname is rarely used.**<br><br>
 ![52](screenshots/52.PNG)<br><br>
+**Above shows django's built in validators. we can have a list of validators for each field. the above example does the same thing as the clean_fieldname we used before**<br><br>
 ![53](screenshots/53.PNG)<br><br>
 ![54](screenshots/54.PNG)<br><br>
+### Custom validators using djangos validators class 
 ![55](screenshots/55.PNG)<br><br>
 ![56](screenshots/56.PNG)<br><br>
 ![57](screenshots/57.PNG)<br><br>
+### Cleaning the entire form all at once
 ![58](screenshots/58.PNG)<br><br>
 ![59](screenshots/59.PNG)<br><br>
 ![60](screenshots/60.PNG)<br><br>
