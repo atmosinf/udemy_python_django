@@ -91,6 +91,7 @@ So it's actually accepting the information.**<br><br>
 **Use the 'clean' method**<br><br>
 ![60](screenshots/60.PNG)<br><br>
 ![61](screenshots/61.PNG)<br><br>
+## Model Forms
 ![62](screenshots/62.PNG)<br><br>
 ![63](screenshots/63.PNG)<br><br>
 ![64](screenshots/64.PNG)<br><br>
@@ -103,6 +104,8 @@ So it's actually accepting the information.**<br><br>
 ![71](screenshots/71.PNG)<br><br>
 ![72](screenshots/72.PNG)<br><br>
 ![73](screenshots/73.PNG)<br><br>
+**But if you want to actually use custom validators like we previously discussed, then you do have to
+pass in those form fields where you provide the validator parameters.**<br><br>
 ![74](screenshots/74.PNG)<br><br>
 ![75](screenshots/75.PNG)<br><br>
 ![76](screenshots/76.PNG)<br><br>
