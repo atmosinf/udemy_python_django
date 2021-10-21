@@ -110,6 +110,27 @@ pass in those form fields where you provide the validator parameters.**<br><br>
 ![75](screenshots/75.PNG)<br><br>
 ![76](screenshots/76.PNG)<br><br>
 ![77](screenshots/77.PNG)<br><br>
+## How to insert data into models (databases) using forms
 ![78](screenshots/78.PNG)<br><br>
 ![79](screenshots/79.PNG)<br><br>
 ![80](screenshots/80.PNG)<br><br>
+![81](screenshots/81.PNG)<br><br>
+![82](screenshots/82.PNG)<br><br>
+![83](screenshots/83.PNG)<br><br>
+![84](screenshots/84.PNG)<br><br>
+![85](screenshots/85.PNG)<br><br>
+![86](screenshots/86.PNG)<br><br>
+![87](screenshots/87.PNG)<br><br>
+![88](screenshots/88.PNG)<br><br>
+![89](screenshots/89.PNG)<br><br>
+![90](screenshots/90.PNG)<br><br>
+![91](screenshots/91.PNG)<br><br>
+![92](screenshots/92.PNG)<br><br>
+![93](screenshots/93.PNG)<br><br>
+![94](screenshots/94.PNG)<br><br>
+![95](screenshots/95.PNG)<br><br>
+![96](screenshots/96.PNG)<br><br>
+![97](screenshots/97.PNG)<br><br>
+![98](screenshots/98.PNG)<br><br>
+![99](screenshots/99.PNG)<br><br>
+![100](screenshots/100.PNG)<br><br>
