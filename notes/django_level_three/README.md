@@ -88,6 +88,7 @@ So it's actually accepting the information.**<br><br>
 ### Cleaning the entire form all at once
 ![58](screenshots/58.PNG)<br><br>
 ![59](screenshots/59.PNG)<br><br>
+**Use the 'clean' method**<br><br>
 ![60](screenshots/60.PNG)<br><br>
 ![61](screenshots/61.PNG)<br><br>
 ![62](screenshots/62.PNG)<br><br>
