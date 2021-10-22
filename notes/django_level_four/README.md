@@ -68,6 +68,7 @@ admin wants it that way so we can go ahead and do that.**<br><br>
 ![47](screenshots/47.PNG)<br><br>
 ![48](screenshots/48.PNG)<br><br>
 **navbar links work after template tagging**<br><br>
+### Template filters and custom filters
 ![49](screenshots/49.PNG)<br><br>
 ![50](screenshots/50.PNG)<br><br>
 ![51](screenshots/51.PNG)<br><br>
@@ -85,39 +86,12 @@ admin wants it that way so we can go ahead and do that.**<br><br>
 ![63](screenshots/63.PNG)<br><br>
 ![64](screenshots/64.PNG)<br><br>
 ![65](screenshots/65.PNG)<br><br>
+**create a new folder, let's call it templatetags, under the app folder (in this case, under the basic_app folder. not in the project folder). create an empty __init__.py file inside it. this tells python to treat it as a module**<br><br>
 ![66](screenshots/66.PNG)<br><br>
+**So the first one is going to be the string that you call the function when you're using a template tag.
+The second one is the function itself.**<br><br>
 ![67](screenshots/67.PNG)<br><br>
+**don't forget to add {% load my_extras %} at the top (lecturer forgot to do that here. check the first screenshot in this section for details)**<br><br>
 ![68](screenshots/68.PNG)<br><br>
 ![69](screenshots/69.PNG)<br><br>
-![70](screenshots/70.PNG)<br><br>
-![71](screenshots/71.PNG)<br><br>
-![72](screenshots/72.PNG)<br><br>
-![73](screenshots/73.PNG)<br><br>
-![74](screenshots/74.PNG)<br><br>
-![75](screenshots/75.PNG)<br><br>
-![76](screenshots/76.PNG)<br><br>
-![77](screenshots/77.PNG)<br><br>
-![78](screenshots/78.PNG)<br><br>
-![79](screenshots/79.PNG)<br><br>
-![80](screenshots/80.PNG)<br><br>
-![80](screenshots/80.PNG)<br><br>
-![81](screenshots/81.PNG)<br><br>
-![82](screenshots/82.PNG)<br><br>
-![83](screenshots/83.PNG)<br><br>
-![84](screenshots/84.PNG)<br><br>
-![85](screenshots/85.PNG)<br><br>
-![86](screenshots/86.PNG)<br><br>
-![87](screenshots/87.PNG)<br><br>
-![88](screenshots/88.PNG)<br><br>
-![89](screenshots/89.PNG)<br><br>
-![90](screenshots/90.PNG)<br><br>
-![91](screenshots/91.PNG)<br><br>
-![92](screenshots/92.PNG)<br><br>
-![93](screenshots/93.PNG)<br><br>
-![94](screenshots/94.PNG)<br><br>
-![95](screenshots/95.PNG)<br><br>
-![96](screenshots/96.PNG)<br><br>
-![97](screenshots/97.PNG)<br><br>
-![98](screenshots/98.PNG)<br><br>
-![99](screenshots/99.PNG)<br><br>
-![100](screenshots/100.PNG)<br><br>
+**This is a better way to register the custom filter using a decorator**<br><br>
