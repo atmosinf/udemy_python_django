@@ -95,3 +95,5 @@ The second one is the function itself.**<br><br>
 ![68](screenshots/68.PNG)<br><br>
 ![69](screenshots/69.PNG)<br><br>
 **This is a better way to register the custom filter using a decorator**<br><br>
+![70](screenshots/70.PNG)<br><br>
+**Example of loading the custom filter - {% load my_extras %}. The {% extends %} tag should always come first**<br><br>
