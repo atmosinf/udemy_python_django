@@ -15,7 +15,7 @@
 ![12](screenshots/12.PNG)<br><br>
 ![13](screenshots/13.PNG)<br><br>
 ![14](screenshots/14.PNG)<br><br>
-**First set up the project as usual. create a basic_app and a templates folder. set the template directory and add basicapp in settings.py. under templates folder, create a base.html, index.html and other.html, and finally a file called relative_url_templates.html which will contain all our relative urls. **<br><br>
+**First set up the project as usual. create a basic_app and a templates folder. set the template directory and add basicapp in settings.py. under templates folder, create a base.html(this will be filled in later), index.html and other.html, and finally a file called relative_url_templates.html which will contain all our relative urls. **<br><br>
 ![15](screenshots/15.PNG)<br><br>
 ![16](screenshots/16.PNG)<br><br>
 ![17](screenshots/17.PNG)<br><br>
@@ -50,6 +50,7 @@ admin wants it that way so we can go ahead and do that.**<br><br>
 **how to go to the index page as an anchor tag**<br><br>
 ![31](screenshots/31.PNG)<br><br>
 ![32](screenshots/32.PNG)<br><br>
+### URL template inheritance
 ![33](screenshots/33.PNG)<br><br>
 ![34](screenshots/34.PNG)<br><br>
 ![35](screenshots/35.PNG)<br><br>
@@ -66,6 +67,7 @@ admin wants it that way so we can go ahead and do that.**<br><br>
 ![46](screenshots/46.PNG)<br><br>
 ![47](screenshots/47.PNG)<br><br>
 ![48](screenshots/48.PNG)<br><br>
+**navbar links work after template tagging**<br><br>
 ![49](screenshots/49.PNG)<br><br>
 ![50](screenshots/50.PNG)<br><br>
 ![51](screenshots/51.PNG)<br><br>
