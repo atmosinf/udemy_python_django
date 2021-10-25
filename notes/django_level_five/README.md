@@ -93,6 +93,7 @@ hashing the password by saying set password method, and then we save that hash p
 ![74](screenshots/74.PNG)<br><br>
 ![75](screenshots/75.PNG)<br><br>
 ![76](screenshots/76.PNG)<br><br>
+**now use <span style="color:red">*from django.urls import reverse*</span> instead of <span style="color:red">*from django.core.urlresolvers import reverse*</span> **<br><br>
 ![77](screenshots/77.PNG)<br><br>
 ![78](screenshots/78.PNG)<br><br>
 ![79](screenshots/79.PNG)<br><br>
