@@ -98,7 +98,6 @@ hashing the password by saying set password method, and then we save that hash p
 ![79](screenshots/79.PNG)<br><br>
 **the user_logout view requires the user to be logged in. This is specified by the @login_required decorator**<br><br>
 ![80](screenshots/80.PNG)<br><br>
-![80](screenshots/80.PNG)<br><br>
 ![81](screenshots/81.PNG)<br><br>
 ![82](screenshots/82.PNG)<br><br>
 ![83](screenshots/83.PNG)<br><br>
