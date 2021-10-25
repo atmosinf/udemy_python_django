@@ -86,6 +86,7 @@ hashing the password by saying set password method, and then we save that hash p
 **note that the password is hashed and censored, so that the superuser cannot read other users' passwords**<br><br>
 ![70](screenshots/70.PNG)<br><br>
 **but the superuser can change the password**<br><br>
+### Logins
 ![71](screenshots/71.PNG)<br><br>
 ![72](screenshots/72.PNG)<br><br>
 ![73](screenshots/73.PNG)<br><br>
@@ -96,7 +97,6 @@ hashing the password by saying set password method, and then we save that hash p
 ![78](screenshots/78.PNG)<br><br>
 ![79](screenshots/79.PNG)<br><br>
 **the user_logout view requires the user to be logged in. This is specified by the @login_required decorator**<br><br>
-### Logins
 ![80](screenshots/80.PNG)<br><br>
 ![80](screenshots/80.PNG)<br><br>
 ![81](screenshots/81.PNG)<br><br>
