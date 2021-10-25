@@ -95,6 +95,7 @@ hashing the password by saying set password method, and then we save that hash p
 ![77](screenshots/77.PNG)<br><br>
 ![78](screenshots/78.PNG)<br><br>
 ![79](screenshots/79.PNG)<br><br>
+**the user_logout view requires the user to be logged in. This is specified by the @login_required decorator**<br><br>
 ### Logins
 ![80](screenshots/80.PNG)<br><br>
 ![80](screenshots/80.PNG)<br><br>
@@ -106,16 +107,4 @@ hashing the password by saying set password method, and then we save that hash p
 ![86](screenshots/86.PNG)<br><br>
 ![87](screenshots/87.PNG)<br><br>
 ![88](screenshots/88.PNG)<br><br>
-**the user_logout view requires the user to be logged in. This is specified by the @login_required decorator**<br><br>
-![89](screenshots/89.PNG)<br><br>
-![90](screenshots/90.PNG)<br><br>
-![91](screenshots/91.PNG)<br><br>
-![92](screenshots/92.PNG)<br><br>
-![93](screenshots/93.PNG)<br><br>
-![94](screenshots/94.PNG)<br><br>
-![95](screenshots/95.PNG)<br><br>
-![96](screenshots/96.PNG)<br><br>
-![97](screenshots/97.PNG)<br><br>
-![98](screenshots/98.PNG)<br><br>
-![99](screenshots/99.PNG)<br><br>
-![100](screenshots/100.PNG)<br><br>
+
