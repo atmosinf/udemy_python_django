@@ -61,6 +61,7 @@
 ![49](screenshots/49.PNG)<br><br>
 ![50](screenshots/50.PNG)<br><br>
 ![51](screenshots/51.PNG)<br><br>
+### Registration
 ![52](screenshots/52.PNG)<br><br>
 ![53](screenshots/53.PNG)<br><br>
 ![54](screenshots/54.PNG)<br><br>
@@ -68,9 +69,12 @@
 ![56](screenshots/56.PNG)<br><br>
 ![57](screenshots/57.PNG)<br><br>
 ![58](screenshots/58.PNG)<br><br>
+**So basically, what this is happening is we're grabbing the user form, saving the database, then we're
+hashing the password by saying set password method, and then we save that hash passwords to the database.**<br><br>
 ![59](screenshots/59.PNG)<br><br>
 ![60](screenshots/60.PNG)<br><br>
 ![61](screenshots/61.PNG)<br><br>
+**you might have to makemigrations and migrate before proceeding with above. Also, create superuser with python manage.py createsuperuser**<br><br>
 ![62](screenshots/62.PNG)<br><br>
 ![63](screenshots/63.PNG)<br><br>
 ![64](screenshots/64.PNG)<br><br>
@@ -79,7 +83,9 @@
 ![67](screenshots/67.PNG)<br><br>
 ![68](screenshots/68.PNG)<br><br>
 ![69](screenshots/69.PNG)<br><br>
+**note that the password is hashed and censored, so that the superuser cannot read other users' passwords**<br><br>
 ![70](screenshots/70.PNG)<br><br>
+**but the superuser can change the password**<br><br>
 ![71](screenshots/71.PNG)<br><br>
 ![72](screenshots/72.PNG)<br><br>
 ![73](screenshots/73.PNG)<br><br>
