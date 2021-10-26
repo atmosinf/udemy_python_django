@@ -89,6 +89,7 @@ list.* So for ListViews, model = models.School would return a context dictionary
 ![63](screenshots/63.PNG)<br><br>
 ![64](screenshots/64.PNG)<br><br>
 ![65](screenshots/65.PNG)<br><br>
+### CRUD Views
 ![66](screenshots/66.PNG)<br><br>
 ![67](screenshots/67.PNG)<br><br>
 ![68](screenshots/68.PNG)<br><br>
@@ -100,7 +101,15 @@ list.* So for ListViews, model = models.School would return a context dictionary
 ![74](screenshots/74.PNG)<br><br>
 ![75](screenshots/75.PNG)<br><br>
 ![76](screenshots/76.PNG)<br><br>
+**the default name expected by django is the model name in lowercase underscore form. eg: school_form. so let's add that html file**<br><br>
 ![77](screenshots/77.PNG)<br><br>
+**Well, basically what I'm saying is the following I'm going to extend from basic app, have the body
+block and the heading of this form page.
+That page is going to check if the instance of the primary key exists or not.
+If it does not exist, that means this is a new school and we're going to create the school.
+Otherwise we're updating a school that currently exists.
+And this will make more sense as we actually develop the update view, but hopefully get the basic idea
+that I'm checking first.**<br><br>
 ![78](screenshots/78.PNG)<br><br>
 ![79](screenshots/79.PNG)<br><br>
 ![80](screenshots/80.PNG)<br><br>
@@ -108,8 +117,10 @@ list.* So for ListViews, model = models.School would return a context dictionary
 ![81](screenshots/81.PNG)<br><br>
 ![82](screenshots/82.PNG)<br><br>
 ![83](screenshots/83.PNG)<br><br>
+**submit the form again or refresh the page that was in error and click Continue when asked about form resubmission**<br><br>
 ![84](screenshots/84.PNG)<br><br>
 ![85](screenshots/85.PNG)<br><br>
+**there are 2 because form was submitted twice**<br><br>
 ![86](screenshots/86.PNG)<br><br>
 ![87](screenshots/87.PNG)<br><br>
 ![88](screenshots/88.PNG)<br><br>
@@ -119,9 +130,18 @@ list.* So for ListViews, model = models.School would return a context dictionary
 ![92](screenshots/92.PNG)<br><br>
 ![93](screenshots/93.PNG)<br><br>
 ![94](screenshots/94.PNG)<br><br>
+**success_url will call reverse underscore lazy.
+And passing that, we want to go to the basic app and the list of you, so what this success, your
+means is all right, once you successfully deleted a school, I want you to go back to the list page
+of the basic app and show all the schools.
+And theoretically, once you're done deleting it, that school should no longer be on that list.
+The reason we use reverse lazy is that we don't want this evaluated completely when running our .py
+file.
+We only want it to wait until it's actually called as a success.**<br><br>
 ![95](screenshots/95.PNG)<br><br>
 ![96](screenshots/96.PNG)<br><br>
 ![97](screenshots/97.PNG)<br><br>
+**_confirm_delete is the django default url naming. so we'll make a file with that name**<br><br>
 ![98](screenshots/98.PNG)<br><br>
 ![99](screenshots/99.PNG)<br><br>
 ![100](screenshots/100.PNG)<br><br>
