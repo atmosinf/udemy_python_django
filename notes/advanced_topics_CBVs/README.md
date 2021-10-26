@@ -5,7 +5,6 @@
 ![3](screenshots/3.PNG)<br><br>
 ![4](screenshots/4.PNG)<br><br>
 ### Hello World with CBVs
-
 ![5](screenshots/5.PNG)<br><br>
 ![6](screenshots/6.PNG)<br><br>
 **#start a project and an app. in settings.py add the app in the INSTALLED_APPS list, add TEMPLATE_DIR. create the templates folder. create index.html and base.html under the templates folder.**<br><br>
@@ -31,7 +30,7 @@
 ![22](screenshots/22.PNG)<br><br>
 ![23](screenshots/23.PNG)<br><br>
 ![24](screenshots/24.PNG)<br><br>
-**Detail View and List View Part One**<br><br>
+### Detail View and List View Part One
 ![25](screenshots/25.PNG)<br><br>
 ![26](screenshots/26.PNG)<br><br>
 ![27](screenshots/27.PNG)<br><br>
@@ -47,15 +46,29 @@
 ![37](screenshots/37.PNG)<br><br>
 ![38](screenshots/38.PNG)<br><br>
 ![39](screenshots/39.PNG)<br><br>
+**add a few students per school**<br><br>
 ![40](screenshots/40.PNG)<br><br>
 ![41](screenshots/41.PNG)<br><br>
+**create a templates folder under the app folder, and a subfolder with the app name. this is useful if you want to reuse your app in other projects. create the html files as shown**<br><br>
 ![42](screenshots/42.PNG)<br><br>
+### Detail View and List View Part Two
 ![43](screenshots/43.PNG)<br><br>
 ![44](screenshots/44.PNG)<br><br>
+**copy everything from base.html and paste to basic_app_base.html**<br><br>
 ![45](screenshots/45.PNG)<br><br>
 ![46](screenshots/46.PNG)<br><br>
+**but where does the school_list context dictionary come from? it wasn't defined in the view.py file. check below**<br><br>
 ![47](screenshots/47.PNG)<br><br>
+**We don't see any mention of the variable school underscore list.
+So again, where does this actually come from?
+School underscore list.
+Do we have to define this by ourselves with some sort of call to a context dictionary?
+And the list view object right here that we inherit from actually is doing the work of creating that
+context dictionary and returning it for you.
+*In fact, what it does is it takes the model you called, lowercases everything and then adds underscore
+list.* So for ListViews, model = models.School would return a context dictionary of 'school_list'. But DetailViews return just the model name in lowercase. So model = models.School would return a context dictionary of 'school'**<br><br>
 ![48](screenshots/48.PNG)<br><br>
+**but if you want to set the context dictionary name manually, set it using the context_object_name attribute**<br><br>
 ![49](screenshots/49.PNG)<br><br>
 ![50](screenshots/50.PNG)<br><br>
 ![51](screenshots/51.PNG)<br><br>
@@ -65,11 +78,14 @@
 ![55](screenshots/55.PNG)<br><br>
 ![56](screenshots/56.PNG)<br><br>
 ![57](screenshots/57.PNG)<br><br>
+**remember that the student model did not have a primary key. it just had a foreign key which was the school. but django automatically adds an id in the background (serial id, like the first record has id 1, the second 2 and so on)**<br><br>
 ![58](screenshots/58.PNG)<br><br>
 ![59](screenshots/59.PNG)<br><br>
+**the 'students' in 'school_detail.students.all' comes from the foreign key used in the Student model in models.py. screenshot below**<br><br>
 ![60](screenshots/60.PNG)<br><br>
 ![61](screenshots/61.PNG)<br><br>
 ![62](screenshots/62.PNG)<br><br>
+**what's actually happening here? in school_list.html when we click on the school.name, the href is just going to return a single number, the actual number that corresponds to a primary key (pk). this is <pk> in the regex in the urls.py file. so this helps us link to that school's particular detail view. the regex says this - grab the basic_app extension of the domain name / whatever the number happens to be for the pk, and take that in as the SchoolDetailView**<br><br>
 ![63](screenshots/63.PNG)<br><br>
 ![64](screenshots/64.PNG)<br><br>
 ![65](screenshots/65.PNG)<br><br>
