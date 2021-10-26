@@ -113,7 +113,6 @@ that I'm checking first.**<br><br>
 ![78](screenshots/78.PNG)<br><br>
 ![79](screenshots/79.PNG)<br><br>
 ![80](screenshots/80.PNG)<br><br>
-![80](screenshots/80.PNG)<br><br>
 ![81](screenshots/81.PNG)<br><br>
 ![82](screenshots/82.PNG)<br><br>
 ![83](screenshots/83.PNG)<br><br>
