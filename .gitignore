@@ -2,3 +2,10 @@
 *.sqlite3
 DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../ ../manage.py
 DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/__init__.py
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/__pycache__/__init__.cpython-35.pyc
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/__pycache__/settings.cpython-35.pyc
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/__pycache__/urls.cpython-35.pyc
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/__pycache__/wsgi.cpython-35.pyc
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/settings.py
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/urls.py
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/wsgi.py
