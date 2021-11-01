@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>users file</h1>
+    {% if user_records %}
+    <ol>
+      {% for row in user_records %}
+      <li>User Info
+      <ul>
+      <li>{{ row.first_name }}</li>
+      <li>{{ row.last_name }}</li>
+      <li>{{ row.email }}</li>
+      </ul>
+      </li>
+      {% endfor %}
+    </ol>
+      {% endif %}
+  </body>
+</html>
