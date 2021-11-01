@@ -1,0 +1,4 @@
+
+*.sqlite3
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../ ../manage.py
+DJANGO_COURSE_1.xx/DJANGO_COURSE_1.xx/Advanced_Django_CBV/ ../advcbv/__init__.py
